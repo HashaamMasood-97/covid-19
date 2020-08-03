@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NGO"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:gravity="center">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/cov" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="220dp"
+            android:layout_marginBottom="50dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:paddingRight="25dp"
+                android:paddingLeft="25dp">
+
+                <Button
+                    android:id="@+id/profile_ngo"
+                    android:layout_width="145dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/round_button"
+                    android:elevation="3dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableTop="@drawable/profiled"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:text="Profile"
+                    android:textColor="#000000"
+                    android:textSize="14dp"/>
+
+
+
+
+                <Button
+                    android:id="@+id/inventory"
+                    android:layout_width="145dp"
+                    android:layout_height="140dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/round_button"
+                    android:layout_alignParentRight="true"
+                    android:elevation="3dp"
+                    android:drawableTop="@drawable/inventory"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Inventory"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    />
+
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:paddingRight="25dp"
+                android:paddingLeft="25dp">
+
+
+                <Button
+                    android:id="@+id/update"
+                    android:layout_width="145dp"
+                    android:layout_height="140dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/round_button"
+                    android:layout_alignParentRight="true"
+                    android:elevation="3dp"
+                    android:drawableTop="@drawable/manage"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Manage"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    />
+
+
+                <Button
+                    android:id="@+id/hospital"
+                    android:layout_width="145dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/round_button"
+                    android:elevation="3dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableTop="@drawable/hospital"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:text="Hospitals"
+                    android:textColor="#000000"
+                    android:textSize="14dp"/>
+
+
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:paddingRight="25dp"
+                android:paddingLeft="25dp">
+
+
+                <Button
+                    android:id="@+id/request"
+                    android:layout_width="145dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/round_button"
+                    android:elevation="3dp"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableTop="@drawable/pen_req"
+                    android:layout_marginBottom="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:text="Pending Requests"
+                    android:textColor="#000000"
+                    android:textSize="14dp"/>
+
+
+
+                <Button
+                    android:id="@+id/acc_req"
+                    android:layout_width="145dp"
+                    android:layout_height="140dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/round_button"
+                    android:layout_alignParentRight="true"
+                    android:elevation="3dp"
+                    android:drawableTop="@drawable/acc_req"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Accepted Requests"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

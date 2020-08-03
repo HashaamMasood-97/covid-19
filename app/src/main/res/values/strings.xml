@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Goods Tracking</string>
+
+
+    <string-array name="weightUnit">
+        <item>Med Service/Hospital</item>
+        <item>NGO/Private Donor</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string-array name="hospitalunit">
+        <item> SELECT </item>
+        <item>Medical Service</item>
+        <item>Hospital</item>
+
+    </string-array>
+
+
+    <string-array name="ngounit">
+        <item> SELECT </item>
+        <item>NGO</item>
+        <item>Private Donor</item>
+
+    </string-array>
+</resources>

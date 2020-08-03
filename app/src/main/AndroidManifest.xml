@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covid">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyACkzmvCAfEL3UHDpccWgDiXy5kucAdH8w" />
+
+        <activity android:name=".your_req_acc" />
+        <activity android:name=".all_acc_req_info" />
+        <activity android:name=".all_acc_req" />
+        <activity android:name=".all_ngo_info" />
+        <activity android:name=".all_ngo" />
+        <activity android:name=".all_hos_info" />
+        <activity android:name=".all_hos" />
+        <activity android:name=".ngo_req_accp" />
+        <activity android:name=".all_req_info" />
+        <activity android:name=".all_req" />
+        <activity android:name=".inventory" />
+        <activity android:name=".profile_nr" />
+        <activity android:name=".profile_n" />
+        <activity android:name=".NGO" />
+        <activity android:name=".your_req" />
+        <activity android:name=".gen_req" />
+        <activity android:name=".profile_hr" />
+        <activity android:name=".profile_h" />
+        <activity android:name=".hospital" />
+        <activity android:name=".donor" />
+        <activity android:name=".login"/>
+        <activity android:name=".signup" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".terms" />
+        <activity android:name=".about" />
+    </application>
+
+</manifest>

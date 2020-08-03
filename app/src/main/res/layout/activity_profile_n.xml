@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="Information"
+                    android:textSize="25dp"
+                    android:layout_marginTop="15dp"
+                    android:inputType="textPersonName"
+                    android:paddingBottom="15dp"
+
+                    android:textColor="#000000"
+                    />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="Name of NGO/Private Donor"
+                    android:textColor="#000000"
+                    android:inputType="textPersonName"
+                    android:paddingBottom="15dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColorHint="@color/colorInput" />
+
+                <EditText
+                    android:id="@+id/contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="Contact No."
+                    android:textColor="#000000"
+                    android:inputType="number"
+                    android:paddingBottom="15dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColorHint="@color/colorInput" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="Email"
+                    android:textColor="#000000"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="15dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColorHint="@color/colorInput" />
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="Address"
+                    android:textColor="#000000"
+                    android:inputType="textEmailAddress"
+                    android:paddingBottom="15dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColorHint="@color/colorInput" />
+
+                <EditText
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="City"
+                    android:textColor="#000000"
+                    android:inputType="textPersonName"
+                    android:paddingBottom="15dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColorHint="@color/colorInput"  />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="13dp"
+                    >
+
+
+                    <TextView
+                        android:paddingLeft="6dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:hint="Type"
+                        android:textColor="#000000"
+                        android:inputType="textPersonName"
+                        android:textSize="17dp"
+                        android:textColorHint="@color/colorInput" />
+
+
+                    <Spinner
+                        android:id="@+id/weight_select_bmi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        />
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="Inventory"
+                    android:textSize="20dp"
+                    android:layout_marginTop="60dp"
+                    android:inputType="textPersonName"
+                    android:paddingBottom="20dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColor="#000000"
+
+
+                    />
+
+
+                <EditText
+                    android:id="@+id/glooves"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="Available Glooves"
+                    android:textColor="#000000"
+                    android:inputType="number"
+                    android:paddingBottom="15dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColorHint="@color/colorInput" />
+
+
+                <EditText
+                    android:id="@+id/masks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="Available Masks"
+                    android:textColor="#000000"
+                    android:inputType="number"
+                    android:paddingBottom="15dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColorHint="@color/colorInput" />
+
+                <EditText
+                    android:id="@+id/head"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="Available Head Caps"
+                    android:textColor="#000000"
+                    android:inputType="number"
+                    app:backgroundTint="@color/colorInput"
+                    android:paddingBottom="15dp"
+                    android:textColorHint="@color/colorInput"/>
+
+
+                <EditText
+                    android:id="@+id/waste"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="Available Waste Bags"
+                    android:textColor="#000000"
+                    android:inputType="number"
+                    android:paddingBottom="15dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColorHint="@color/colorInput" />
+
+                <EditText
+                    android:id="@+id/sanitizers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="Available Sanitizers"
+                    android:textColor="#000000"
+                    android:inputType="number"
+                    android:paddingBottom="15dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColorHint="@color/colorInput" />
+
+
+                <EditText
+                    android:id="@+id/extra"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:fontFamily="sans-serif"
+                    android:hint="Extra"
+                    android:textColor="#000000"
+                    android:inputType="textImeMultiLine"
+                    android:paddingBottom="15dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColorHint="@color/colorInput" />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="Upload Image"
+                    android:textSize="20dp"
+                    android:layout_marginTop="60dp"
+                    android:inputType="textPersonName"
+                    android:paddingBottom="20dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColor="#000000"
+
+
+                    />
+
+
+                <EditText
+                    android:id="@+id/url"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:hint="Image URL"
+                    android:textColor="#000000"
+                    android:inputType="textUri"
+                    android:paddingBottom="15dp"
+                    app:backgroundTint="@color/colorInput"
+                    android:textColorHint="@color/colorInput" />
+
+
+
+
+
+
+
+                <Button
+                    android:id="@+id/submit_h"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/round_button"
+                    android:text="Submit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorInput"
+                    />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
