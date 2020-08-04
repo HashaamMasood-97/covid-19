@@ -55,8 +55,11 @@ public class splashscreen extends AppCompatActivity {
                             else if(role.equals("Med Service/Hospital")){
                                 startActivity(new Intent(splashscreen.this, hospital.class));
                             }
-                            else{
+                            else if(role.equals("Admin")){
                                 startActivity(new Intent(splashscreen.this, MainActivity.class));
+                            }
+                            else {
+                                startActivity(new Intent(splashscreen.this, login.class));
                             }
 
                         };

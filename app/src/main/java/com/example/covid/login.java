@@ -37,7 +37,7 @@ public class login extends AppCompatActivity {
     ProgressBar progressBar;
 
 
-    DatabaseReference database;;
+    DatabaseReference database;
 
     DatabaseReference hospitalDB;
     DatabaseReference ngoDB;
@@ -59,7 +59,8 @@ public class login extends AppCompatActivity {
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
         progressBar = (ProgressBar) findViewById(R.id.progressbar);
 
-  this.setTitle("Login");
+
+       this.setTitle("Login");
 
 
 
@@ -194,6 +195,44 @@ public class login extends AppCompatActivity {
 
     }
 
+    private void userLogin() {
 
 
+    }
+
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+
+
+        if (mAuth.getCurrentUser() != null) {
+            database = FirebaseDatabase.getInstance().getReference().child("Users");
+            user=FirebaseAuth.getInstance().getCurrentUser();
+            uid=user.getUid();
+            database.addValueEventListener(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                    String role=dataSnapshot.child(uid).child("role").getValue(String.class);
+                    if(role.equals("NGO/Private Donor")){
+                        startActivity(new Intent(login.this, NGO.class));
+                    }
+                    else if(role.equals("Med Service/Hospital")){
+                        startActivity(new Intent(login.this, hospital.class));
+                    }
+                    else{
+                        startActivity(new Intent(login.this, MainActivity.class));
+                    }
+
+        };
+                @Override
+                public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                }
+    });
+
+
+}
+}
 }

@@ -24,13 +24,14 @@ import java.util.List;
 
 public class profile_hr extends AppCompatActivity {
 
-    ListView li;
-    ArrayAdapter<String> adapter;
+    //ListView li;
+    //ArrayAdapter<String> adapter;
     FirebaseUser user;
-    List<String> itemlist;
+   // List<String> itemlist;
     String uid;
     DatabaseReference database;
     ImageView image;
+    TextView name, email, city, address, phone, type, doctors, vent, bed, icu, glooves, mask, waste, caps, sani, date, time  ;
 
 
 
@@ -38,11 +39,28 @@ public class profile_hr extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_hr);
-        li = (ListView) findViewById(R.id.listview);
+       // li = (ListView) findViewById(R.id.listview);
         user= FirebaseAuth.getInstance().getCurrentUser();
         uid=user.getUid();
-        itemlist =new ArrayList<>();
-        image=(ImageView) findViewById(R.id.abc);
+      //  itemlist =new ArrayList<>();
+        name = (TextView) (findViewById(R.id.name));
+        email = (TextView) findViewById(R.id.email);
+        phone = (TextView) findViewById(R.id.contact);
+        address = (TextView) findViewById(R.id.address);
+        city = (TextView) findViewById(R.id.city);
+        doctors = (TextView) findViewById(R.id.doctor);
+        vent = (TextView) findViewById(R.id.vent);
+        bed = (TextView) findViewById(R.id.bed);
+        icu = (TextView) findViewById(R.id.icu);
+        type = (TextView) findViewById(R.id.type);
+        glooves = (TextView) findViewById(R.id.glooves);
+        mask = (TextView) findViewById(R.id.masks);
+      //  waste = (TextView) findViewById(R.id.waste);
+        caps = (TextView) findViewById(R.id.head);
+        sani = (TextView) findViewById(R.id.sanitizers);
+        date = (TextView) findViewById(R.id.date);
+        time = (TextView) findViewById(R.id.time);
+        image=(ImageView)findViewById(R.id.img);
 
 
         this.setTitle("Profile");
@@ -53,29 +71,52 @@ public class profile_hr extends AppCompatActivity {
         database.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                String name=dataSnapshot.child(uid).child("name").getValue(String.class);
-                String email=dataSnapshot.child(uid).child("email").getValue(String.class);
-                String phone=dataSnapshot.child(uid).child("phone").getValue(String.class);
-                String  address=dataSnapshot.child(uid).child("address").getValue(String.class);
-                String city=dataSnapshot.child(uid).child("city").getValue(String.class);
-                String type=dataSnapshot.child(uid).child("type").getValue(String.class);
-                String  doctors=dataSnapshot.child(uid).child("doctors").getValue(String.class);
-                String vent=dataSnapshot.child(uid).child("vent").getValue(String.class);
-                String bed=dataSnapshot.child(uid).child("bed").getValue(String.class);
-                String icu=dataSnapshot.child(uid).child("icu").getValue(String.class);
-                String mask=dataSnapshot.child(uid).child("mask").getValue(String.class);
-                String sani=dataSnapshot.child(uid).child("sani").getValue(String.class);
-                String glooves=dataSnapshot.child(uid).child("glooves").getValue(String.class);
-                String caps=dataSnapshot.child(uid).child("caps").getValue(String.class);
-                String waste=dataSnapshot.child(uid).child("waste").getValue(String.class);
-                String time=dataSnapshot.child(uid).child("time").getValue(String.class);
-                String date=dataSnapshot.child(uid).child("date").getValue(String.class);
+                String nam=dataSnapshot.child(uid).child("name").getValue(String.class);
+                String emai=dataSnapshot.child(uid).child("email").getValue(String.class);
+                String phon=dataSnapshot.child(uid).child("phone").getValue(String.class);
+                String  addres=dataSnapshot.child(uid).child("address").getValue(String.class);
+                String cit=dataSnapshot.child(uid).child("city").getValue(String.class);
+                String typ=dataSnapshot.child(uid).child("type").getValue(String.class);
+                String  doctor=dataSnapshot.child(uid).child("doctors").getValue(String.class);
+                String ven=dataSnapshot.child(uid).child("vent").getValue(String.class);
+                String be=dataSnapshot.child(uid).child("bed").getValue(String.class);
+                String ic=dataSnapshot.child(uid).child("icu").getValue(String.class);
+                String mas=dataSnapshot.child(uid).child("mask").getValue(String.class);
+                String san=dataSnapshot.child(uid).child("sani").getValue(String.class);
+                String gloove=dataSnapshot.child(uid).child("glooves").getValue(String.class);
+                String cap=dataSnapshot.child(uid).child("caps").getValue(String.class);
+                String wast=dataSnapshot.child(uid).child("waste").getValue(String.class);
+                String tim=dataSnapshot.child(uid).child("time").getValue(String.class);
+                String dat=dataSnapshot.child(uid).child("date").getValue(String.class);
                 String imga=dataSnapshot.child(uid).child("url").getValue(String.class);
 
 
                 Picasso.get()
                         .load(imga)
                         .into(image);
+
+                name.setText(nam);
+                email.setText(emai);
+                city.setText(cit);
+                phone.setText(phon);
+                type.setText(typ);
+                address.setText(addres);
+                bed.setText(be);
+                icu.setText(ic);
+                doctors.setText(doctor);
+                vent.setText(ven);
+                time.setText(tim);
+                date.setText(dat);
+                glooves.setText(gloove);
+                mask.setText(mas);
+                caps.setText(cap);
+                sani.setText(san);
+
+
+
+
+
+
 
 
               /*  itemlist.add("Name: " +name + "\n" + "Email: "+ email  +"\n" +  "Phone: " +phone + "\n" +
@@ -93,7 +134,7 @@ public class profile_hr extends AppCompatActivity {
 
                 );
 */
-                itemlist.add("                              Profile");
+               /* itemlist.add("                              Profile");
                 itemlist.add("Name: " +name + "\n" + "Email: "+ email  +"\n" +  "Phone: " +phone + "\n" +
                         "Address: " +address + "\n" + "City: " +city + "\n" + "Type: " +type );
                 itemlist.add("             Medical Equipments/ Supplies");
@@ -111,7 +152,7 @@ public class profile_hr extends AppCompatActivity {
                 adapter = new ArrayAdapter(profile_hr.this, R.layout.hos_pro, R.id.Info1, itemlist);
                 li.setAdapter(adapter);
 
-
+       */
 
 
 
