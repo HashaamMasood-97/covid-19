@@ -39,9 +39,13 @@
         <activity android:name=".gen_req" />
         <activity android:name=".profile_hr" />
         <activity android:name=".profile_h" />
-        <activity android:name=".hospital" />
+        <activity android:name=".hospital" >
+
+        </activity>
         <activity android:name=".donor" />
-        <activity android:name=".login"/>
+        <activity android:name=".login">
+
+        </activity>
         <activity android:name=".signup" />
         <activity android:name=".MainActivity" />
         <activity android:name=".splashscreen">

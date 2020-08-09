@@ -106,19 +106,19 @@ public class all_req_info extends AppCompatActivity {
     public void buttonaccept(View view) {
 
       final String name=getIntent().getStringExtra("name");
-     final  String email=getIntent().getStringExtra("email");
+      final  String email=getIntent().getStringExtra("email");
       final String address=getIntent().getStringExtra("address");
       final String city=getIntent().getStringExtra("city");
       final  String phone=getIntent().getStringExtra("phone");
       final  String glooves=getIntent().getStringExtra("glooves");
-        final String mask=getIntent().getStringExtra("masks");
-        final String caps=getIntent().getStringExtra("caps");
-        final String waste=getIntent().getStringExtra("waste");
-        final String sani=getIntent().getStringExtra("sani");
-        final String details=getIntent().getStringExtra("details");
-        final  String date=getIntent().getStringExtra("date");
-        final  String url=getIntent().getStringExtra("url");
-        final String uid = getIntent().getStringExtra("uid");
+      final String mask=getIntent().getStringExtra("masks");
+      final String caps=getIntent().getStringExtra("caps");
+      final String waste=getIntent().getStringExtra("waste");
+      final String sani=getIntent().getStringExtra("sani");
+      final String details=getIntent().getStringExtra("details");
+      final  String date=getIntent().getStringExtra("date");
+      final  String url=getIntent().getStringExtra("url");
+      final String uid = getIntent().getStringExtra("uid");
 
 
 

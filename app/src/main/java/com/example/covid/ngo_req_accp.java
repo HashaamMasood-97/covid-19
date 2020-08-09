@@ -58,17 +58,11 @@ public class ngo_req_accp extends AppCompatActivity {
                         users = ds.getValue(reqData.class);
                         String role = users.getAcc_uid();
                         if (role.equals(uid)) {
-
-
                             itemlist.add("Name: " + users.getName() + "\n" + "Email: " + users.getEmail() + "\n" +"Phone: " + users.getPhone() + "\n" + "Address:  " + users.getAddress() + "\n" + "City: " + users.getCity() + "\n" + "Glooves: " + users.getGlooves() + "\n" + "Masks: " + users.getMask() + "\n" + "Waste Bags: " + users.getWaste() + "\n" +
                                     "Head Caps: " + users.getCaps() + "\n" + "Sanitizer: " + users.getSani() + "\n" + "Details: " + users.getDetails() + "\n" + "Status: " + users.getStatus()
                                     + "\n"  + "Request Generated At: "+ "\n"  + users.getDate() +
                                      "\n" + "Request Accepted At: "  + "\n" +users.getAccdate()
                             );
-
-
-
-
                         }
                     }
                 }

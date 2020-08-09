@@ -19,7 +19,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:scaleType="fitXY"
-            android:background="@drawable/co" />
+            android:background="@drawable/newcov1" />
 
     </RelativeLayout>
 
