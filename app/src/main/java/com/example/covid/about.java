@@ -13,4 +13,6 @@ public class about extends AppCompatActivity {
 
         this.setTitle("about");
     }
+
+
 }

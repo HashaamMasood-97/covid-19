@@ -274,6 +274,14 @@ public class profile_h extends AppCompatActivity {
         return "";
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(profile_h.this, hospital.class);
+        startActivity(intent);
+        finish();
+    }
+
 }
 
 

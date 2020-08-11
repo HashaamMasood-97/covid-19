@@ -203,6 +203,15 @@ public class profile_n extends AppCompatActivity {
     };
 
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(profile_n.this, NGO.class);
+        startActivity(intent);
+        finish();
+    }
+
+
 
 
 }
