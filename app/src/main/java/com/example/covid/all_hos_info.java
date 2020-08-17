@@ -99,7 +99,7 @@ public class all_hos_info extends AppCompatActivity implements OnMapReadyCallbac
     public void onMapReady(GoogleMap googleMap) {
         map= googleMap;
         map.setMinZoomPreference(12.0f);
-        map.setMaxZoomPreference(15.0f);
+        map.setMaxZoomPreference(17.0f);
         String key = getIntent().getExtras().get("key").toString();
         ref = FirebaseDatabase.getInstance().getReference().child("hospital").child(key);
         String longitutde = getIntent().getStringExtra("longitude");

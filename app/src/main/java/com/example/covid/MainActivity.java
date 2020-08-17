@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         plc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent startplcord = new Intent(getApplicationContext(), all_req.class);
+                Intent startplcord = new Intent(getApplicationContext(), admin_req.class);
                 startActivity(startplcord);
             }
         });

@@ -174,7 +174,7 @@ public class gen_req extends AppCompatActivity {
             TimeZone tz = TimeZone.getTimeZone("Asia/karachi");
             //   calendar.setTimeInMillis(timestamp * 1000);
             calendar.add(Calendar.MILLISECOND, tz.getOffset(calendar.getTimeInMillis()));
-            SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+            SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy hh:mm:ss a");
             Date currenTimeZone = (Date) calendar.getTime();
             return sdf.format(currenTimeZone);
         }catch (Exception e) {
