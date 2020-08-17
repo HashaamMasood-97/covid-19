@@ -5,6 +5,7 @@
     tools:context=".profile_nr"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     android:orientation="vertical">
 
     <LinearLayout
@@ -32,7 +33,7 @@
                     android:textStyle="bold"
                     android:textSize="20sp"
                     android:paddingTop="10dp"
-                    android:textColor="@color/colorInput"
+                    android:textColor="#fff"
                     android:layout_gravity="center"
                     android:id="@+id/name"/>
             </LinearLayout>
@@ -63,7 +64,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/email"/>
             </LinearLayout>
@@ -83,7 +84,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/contact"/>
             </LinearLayout>
@@ -103,7 +104,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/type"
                     />
@@ -124,7 +125,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/address"
                     />
@@ -145,7 +146,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/city"/>
             </LinearLayout>

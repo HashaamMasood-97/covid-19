@@ -5,30 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/back"
     tools:context=".signup">
 
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_weight="1">
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:scaleType="fitXY"
-            android:background="@drawable/newcov1" />
-
-    </RelativeLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="@color/colorPrimary">
+       >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -37,6 +27,41 @@
             android:orientation="vertical"
             android:paddingLeft="15dp"
             android:paddingRight="15dp">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/tablogo"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="COVID'19"
+                android:textFontWeight="700"
+                android:fontFamily="@font/js"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:paddingBottom="5dp"
+                android:textColorHint="@color/colorAccent"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Medical Goods Tracking"
+                android:fontFamily="@font/js"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:paddingBottom="15dp"
+                android:textColorHint="@color/colorAccent"
+                android:layout_marginBottom="50dp"
+                />
+
 
             <EditText
                 android:id="@+id/editTextName"
@@ -101,14 +126,19 @@
 
             </RelativeLayout>
 
+
             <Button
                 android:id="@+id/buttonSignUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_margin="7dp"
+
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="15dp"
                 android:background="@drawable/round"
-                android:text="Sign Up"
+                android:text="Signup"
                 android:textAllCaps="false"
                 android:textColor="@color/colorAccent" />
 
@@ -117,14 +147,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="15dp"
-                android:text="Already have an account? Login"
+                android:text="Already have an Account? Sign In"
                 android:textAlignment="center"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:textColor="@color/colorAccent" />
 
 
         </LinearLayout>
-
 
         <ProgressBar
             android:id="@+id/progressbar"
@@ -135,5 +164,5 @@
             android:visibility="gone" />
     </RelativeLayout>
 
-
+</ScrollView>
 </LinearLayout>

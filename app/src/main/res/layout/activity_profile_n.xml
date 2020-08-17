@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
 
     >
     <LinearLayout
@@ -39,7 +40,7 @@
                     android:inputType="textPersonName"
                     android:paddingBottom="15dp"
 
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     />
 
                 <EditText
@@ -48,11 +49,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:hint="Name of NGO/Private Donor"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:inputType="textPersonName"
                     android:paddingBottom="15dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColorHint="@color/colorInput" />
+                    app:backgroundTint="#fff"
+                    android:textColorHint="#fff" />
 
                 <EditText
                     android:id="@+id/contact"
@@ -60,11 +61,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:hint="Contact No."
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:inputType="number"
                     android:paddingBottom="15dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColorHint="@color/colorInput" />
+                    app:backgroundTint="#fff"
+                    android:textColorHint="#fff" />
 
                 <EditText
                     android:id="@+id/email"
@@ -72,11 +73,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:hint="Email"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:inputType="textEmailAddress"
                     android:paddingBottom="15dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColorHint="@color/colorInput" />
+                    app:backgroundTint="#fff"
+                    android:textColorHint="#fff" />
 
                 <EditText
                     android:id="@+id/address"
@@ -84,11 +85,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:hint="Address"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:inputType="textEmailAddress"
                     android:paddingBottom="15dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColorHint="@color/colorInput" />
+                    app:backgroundTint="#fff"
+                    android:textColorHint="#fff" />
 
                 <EditText
                     android:id="@+id/city"
@@ -96,11 +97,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:hint="City"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:inputType="textPersonName"
                     android:paddingBottom="15dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColorHint="@color/colorInput"  />
+                    app:backgroundTint="#fff"
+                    android:textColorHint="#fff"  />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -115,10 +116,10 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
                         android:hint="Type"
-                        android:textColor="#000000"
+                        android:textColor="#fff"
                         android:inputType="textPersonName"
                         android:textSize="17dp"
-                        android:textColorHint="@color/colorInput" />
+                        android:textColorHint="#fff" />
 
 
                     <Spinner
@@ -147,8 +148,8 @@
                     android:layout_marginTop="60dp"
                     android:inputType="textPersonName"
                     android:paddingBottom="20dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColor="#000000"
+                    app:backgroundTint="#fff"
+                    android:textColor="#fff"
 
 
                     />
@@ -160,11 +161,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:hint="Available Glooves"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:inputType="number"
                     android:paddingBottom="15dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColorHint="@color/colorInput" />
+                    app:backgroundTint="#fff"
+                    android:textColorHint="#fff" />
 
 
                 <EditText
@@ -173,11 +174,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:hint="Available Masks"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:inputType="number"
                     android:paddingBottom="15dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColorHint="@color/colorInput" />
+                    app:backgroundTint="#fff"
+                    android:textColorHint="#fff" />
 
                 <EditText
                     android:id="@+id/head"
@@ -185,11 +186,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:hint="Available Head Caps"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:inputType="number"
-                    app:backgroundTint="@color/colorInput"
+                    app:backgroundTint="#fff"
                     android:paddingBottom="15dp"
-                    android:textColorHint="@color/colorInput"/>
+                    android:textColorHint="#fff"/>
 
 
                 <EditText
@@ -198,11 +199,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:hint="Available Waste Bags"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:inputType="number"
                     android:paddingBottom="15dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColorHint="@color/colorInput" />
+                    app:backgroundTint="#fff"
+                    android:textColorHint="#fff" />
 
                 <EditText
                     android:id="@+id/sanitizers"
@@ -210,11 +211,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:hint="Available Sanitizers"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:inputType="number"
                     android:paddingBottom="15dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColorHint="@color/colorInput" />
+                    app:backgroundTint="#fff"
+                    android:textColorHint="#fff" />
 
 
                 <EditText
@@ -223,11 +224,11 @@
                     android:layout_height="120dp"
                     android:fontFamily="sans-serif"
                     android:hint="Extra"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:inputType="textImeMultiLine"
                     android:paddingBottom="15dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColorHint="@color/colorInput" />
+                    app:backgroundTint="#fff"
+                    android:textColorHint="#fff" />
 
 
 
@@ -242,8 +243,8 @@
                     android:layout_marginTop="60dp"
                     android:inputType="textPersonName"
                     android:paddingBottom="20dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColor="#000000"
+                    app:backgroundTint="#fff"
+                    android:textColor="#fff"
 
 
                     />
@@ -255,11 +256,11 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
                     android:hint="Image URL"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:inputType="textUri"
                     android:paddingBottom="15dp"
-                    app:backgroundTint="@color/colorInput"
-                    android:textColorHint="@color/colorInput" />
+                    app:backgroundTint="#fff"
+                    android:textColorHint="#fff" />
 
 
 
@@ -276,10 +277,10 @@
                     android:layout_marginLeft="7dp"
                     android:layout_marginRight="7dp"
                     android:layout_marginTop="25dp"
-                    android:background="@drawable/round_button"
+                    android:background="@drawable/round"
                     android:text="Submit"
                     android:textAllCaps="false"
-                    android:textColor="@color/colorInput"
+                    android:textColor="#fff"
                     />
 
             </LinearLayout>

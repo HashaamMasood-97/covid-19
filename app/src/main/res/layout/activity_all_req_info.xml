@@ -5,6 +5,7 @@
     tools:context=".all_req_info"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     android:orientation="vertical">
 
     <LinearLayout
@@ -32,7 +33,7 @@
                     android:textStyle="bold"
                     android:textSize="21sp"
                     android:paddingTop="10dp"
-                    android:textColor="@color/colorInput"
+                    android:textColor="#fff"
                     android:layout_gravity="center"
                     android:id="@+id/name"/>
 
@@ -43,7 +44,7 @@
                     android:textStyle="bold"
                     android:textSize="20sp"
                     android:paddingTop="50dp"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:layout_gravity="center"
                     android:text="Requested"
                     />
@@ -61,6 +62,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
+                    android:background="@drawable/back"
                     android:weightSum="4">
                     <LinearLayout
                         android:gravity="center"
@@ -71,7 +73,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="#fff"
                             android:text="Masks"
 
                             android:textSize="18sp"
@@ -93,7 +95,7 @@
                             android:textStyle="bold"
                             android:textSize="18sp"
 
-                            android:textColor="@color/colorInput"
+                            android:textColor="#fff"
                             />
 
                     </LinearLayout>
@@ -114,6 +116,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
+                    android:background="@drawable/back"
                     android:weightSum="4">
                     <LinearLayout
                         android:gravity="center"
@@ -124,7 +127,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="#fff"
                             android:text="Glooves"
 
                             android:textSize="18sp"
@@ -146,7 +149,7 @@
                             android:textStyle="bold"
                             android:textSize="19sp"
 
-                            android:textColor="@color/colorInput"
+                            android:textColor="#fff"
                             />
 
                     </LinearLayout>
@@ -166,6 +169,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
+                    android:background="@drawable/back"
                     android:weightSum="4">
                     <LinearLayout
                         android:gravity="center"
@@ -176,7 +180,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="#fff"
                             android:text="Sanitizers"
 
                             android:textSize="18sp"
@@ -198,7 +202,7 @@
                             android:textStyle="bold"
                             android:textSize="19sp"
 
-                            android:textColor="@color/colorInput"
+                            android:textColor="#fff"
                             />
 
                     </LinearLayout>
@@ -218,6 +222,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
+                    android:background="@drawable/back"
                     android:weightSum="4">
                     <LinearLayout
                         android:gravity="center"
@@ -228,7 +233,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="#fff"
                             android:text="Head Caps"
 
                             android:textSize="18sp"
@@ -250,7 +255,7 @@
                             android:textStyle="bold"
                             android:textSize="18sp"
 
-                            android:textColor="@color/colorInput"
+                            android:textColor="#fff"
                             />
 
                     </LinearLayout>
@@ -270,6 +275,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
+                    android:background="@drawable/back"
                     android:weightSum="4">
                     <LinearLayout
                         android:gravity="center"
@@ -280,7 +286,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textColor="#000000"
+                            android:textColor="#fff"
                             android:text="Waste Bags"
 
                             android:textSize="18sp"
@@ -302,7 +308,7 @@
                             android:textStyle="bold"
                             android:textSize="19sp"
 
-                            android:textColor="@color/colorInput"
+                            android:textColor="#fff"
                             />
 
                     </LinearLayout>
@@ -334,14 +340,14 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
                     android:textSize="16sp"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:text="Details: "/>
                 <TextView
                     android:textStyle="bold"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="5dp"
                     android:textSize="16sp"
                     android:layout_marginBottom="10dp"
@@ -359,7 +365,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="16sp"
                     android:text="Status: "/>
                 <TextView
@@ -367,7 +373,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="5dp"
                     android:layout_marginBottom="10dp"
                     android:textSize="16sp"
@@ -385,7 +391,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="16sp"
                     android:text="Generated: "/>
                 <TextView
@@ -393,7 +399,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="5dp"
                     android:layout_marginBottom="10dp"
                     android:textSize="16sp"
@@ -425,7 +431,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/email"/>
             </LinearLayout>
@@ -445,7 +451,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/contact"/>
             </LinearLayout>
@@ -465,7 +471,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/address"
                     />
@@ -486,7 +492,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/city"/>
             </LinearLayout>

@@ -5,6 +5,7 @@
     tools:context=".profile_hr"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/back"
     android:orientation="vertical">
 
     <LinearLayout
@@ -32,7 +33,7 @@
                     android:textStyle="bold"
                     android:textSize="20sp"
                     android:paddingTop="10dp"
-                    android:textColor="@color/colorInput"
+                    android:textColor="#fff"
                     android:layout_gravity="center"
                     android:id="@+id/name"/>
 
@@ -43,7 +44,7 @@
 
                     android:textSize="17sp"
                     android:paddingTop="40dp"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:layout_gravity="center"
                     android:text="Personal Protective Equiments Available"
                     />
@@ -61,6 +62,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
+                    android:background="@drawable/back"
                     android:weightSum="4">
                     <LinearLayout
                         android:gravity="center"
@@ -72,6 +74,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Masks"
+                            android:textColor="#fff"
                             android:textSize="17sp"
                             />
                         <TextView
@@ -81,7 +84,7 @@
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:paddingTop="10dp"
-                            android:textColor="@color/colorInput"
+                            android:textColor="#fff"
                             />
 
                     </LinearLayout>
@@ -95,6 +98,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Glooves"
+                            android:textColor="#fff"
                             android:textSize="17sp"
                             />
                         <TextView
@@ -104,7 +108,7 @@
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:paddingTop="10dp"
-                            android:textColor="@color/colorInput"
+                            android:textColor="#fff"
                             />
 
                     </LinearLayout>
@@ -118,6 +122,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:textColor="#fff"
                             android:text="Sanitizers"
                             android:textSize="17sp"
                             />
@@ -128,7 +133,7 @@
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:paddingTop="10dp"
-                            android:textColor="@color/colorInput"
+                            android:textColor="#fff"
                             />
 
                     </LinearLayout>
@@ -142,6 +147,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Head Caps"
+                            android:textColor="#fff"
                             android:textSize="17sp"
                             />
                         <TextView
@@ -151,7 +157,7 @@
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:paddingTop="10dp"
-                            android:textColor="@color/colorInput"
+                            android:textColor="#fff"
                             />
 
                     </LinearLayout>
@@ -165,7 +171,7 @@
 
             android:textSize="17sp"
             android:paddingTop="40dp"
-            android:textColor="#000000"
+            android:textColor="#fff"
             android:layout_gravity="center"
             android:text="Medical Equipments Availiblity"
             />
@@ -179,6 +185,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@drawable/back"
                 android:orientation="horizontal"
                 android:weightSum="4">
                 <LinearLayout
@@ -190,6 +197,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="#fff"
                         android:text="Doctors"
                         android:textSize="17sp"
                         />
@@ -200,7 +208,7 @@
                         android:textStyle="bold"
                         android:textSize="17sp"
                         android:paddingTop="10dp"
-                        android:textColor="@color/colorInput"
+                        android:textColor="#fff"
                         />
 
                 </LinearLayout>
@@ -213,6 +221,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="#fff"
                         android:text="Ventilator"
                         android:textSize="17sp"
                         />
@@ -223,7 +232,7 @@
                         android:textStyle="bold"
                         android:textSize="17sp"
                         android:paddingTop="10dp"
-                        android:textColor="@color/colorInput"
+                        android:textColor="#fff"
                         />
 
                 </LinearLayout>
@@ -232,10 +241,12 @@
                     android:gravity="center"
                     android:orientation="vertical"
                     android:layout_width="0dp"
+
                     android:layout_weight="1"
                     android:layout_height="match_parent">
                     <TextView
                         android:layout_width="wrap_content"
+                        android:textColor="#fff"
                         android:layout_height="wrap_content"
                         android:text="ICU Rooms"
                         android:textSize="17sp"
@@ -247,7 +258,7 @@
                         android:textStyle="bold"
                         android:textSize="17sp"
                         android:paddingTop="10dp"
-                        android:textColor="@color/colorInput"
+                        android:textColor="#fff"
                         />
 
                 </LinearLayout>
@@ -260,6 +271,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textColor="#fff"
                         android:text="Beds"
                         android:textSize="17sp"
                         />
@@ -270,7 +282,7 @@
                         android:textStyle="bold"
                         android:textSize="17sp"
                         android:paddingTop="10dp"
-                        android:textColor="@color/colorInput"
+                        android:textColor="#fff"
                         />
 
                 </LinearLayout>
@@ -297,7 +309,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/email"/>
             </LinearLayout>
@@ -317,7 +329,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/contact"/>
             </LinearLayout>
@@ -337,7 +349,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/type"
                     />
@@ -358,7 +370,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/address"
                     />
@@ -375,11 +387,10 @@
                     android:src="@drawable/ic_form"/>
                 <TextView
                     android:textStyle="bold"
-
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="20dp"
                     android:id="@+id/city"/>
             </LinearLayout>
@@ -405,7 +416,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
                     android:paddingLeft="10dp"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:text="Availibilty of PPE:"/>
                 <TextView
                     android:textStyle="bold"
@@ -414,7 +425,7 @@
                     android:layout_height="wrap_content"
                     android:inputType="textMultiLine"
                     android:textSize="16sp"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:paddingLeft="5dp"
                     android:id="@+id/time"/>
             </LinearLayout>
@@ -432,7 +443,7 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
                     android:textSize="16sp"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:text="Updated At:"/>
                 <TextView
                     android:textStyle="bold"
@@ -441,14 +452,13 @@
                     android:layout_height="wrap_content"
                     android:textSize="16sp"
                     android:paddingLeft="5dp"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:layout_marginBottom="30dp"
                     android:id="@+id/date"/>
             </LinearLayout>
 
 
         </LinearLayout>
-
 
 
 

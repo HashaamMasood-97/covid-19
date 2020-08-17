@@ -4,30 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:scaleType="fitXY"
-    android:background="@drawable/spalsh1"
     android:orientation="vertical"
     tools:context=".splashscreen">
 
 
+
+
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <!--<ProgressBar
-            android:id="@+id/splashProgress"
-            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/back">
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:indeterminateTint="@android:color/holo_blue_dark"
-             />-->
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tablogo"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="COVID'19"
+                android:textFontWeight="700"
+                android:fontFamily="@font/js"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:paddingBottom="15dp"
+                android:textColorHint="@color/colorAccent"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Medical Goods Tracking"
+                android:fontFamily="@font/js"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:paddingBottom="15dp"
+                android:textColorHint="@color/colorAccent"
+                android:layout_marginBottom="50dp"/>
+
+
+
+        </LinearLayout>
 
 
     </RelativeLayout>
-
-
-
-
 
 
 </LinearLayout>

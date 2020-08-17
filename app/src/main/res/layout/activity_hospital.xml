@@ -11,25 +11,52 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".hospital"
+        android:background="@drawable/back"
         >
 
 
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="240dp"
+            android:layout_height="300dp"
             android:orientation="vertical"
-            android:background="@color/colorPrimary"
             android:gravity="center">
 
 
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="240dp"
-                android:layout_centerHorizontal="true"
+                android:layout_width="130dp"
+                android:layout_marginTop="40dp"
+                android:layout_height="110dp"
                 android:layout_centerVertical="true"
-                android:background="@drawable/newcov" />
+                android:layout_gravity="center"
+                android:background="@drawable/tablogo"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="COVID'19"
+                android:textFontWeight="600"
+                android:fontFamily="@font/js"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textColorHint="@color/colorAccent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Medical Goods Tracking"
+                android:fontFamily="@font/js"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:paddingBottom="15dp"
+                android:textColorHint="@color/colorAccent"
+                />
+
 
 
         </LinearLayout>
@@ -40,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_marginTop="220dp"
+            android:layout_marginTop="330dp"
             android:layout_marginBottom="50dp">
 
 
@@ -190,7 +217,11 @@
                     android:textSize="13dp"
                     />
 
+
+
             </RelativeLayout>
+
+
         </LinearLayout>
 
 

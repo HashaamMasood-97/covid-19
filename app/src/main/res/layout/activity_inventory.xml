@@ -2,7 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,7 +23,7 @@
                 android:textStyle="bold"
                 android:textSize="25sp"
                 android:paddingTop="50dp"
-                android:textColor="#000000"
+                android:textColor="#fff"
                 android:layout_gravity="center"
                 android:text="Inventory"
                 />
@@ -39,6 +40,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@drawable/back"
                 android:orientation="horizontal"
                 android:weightSum="4">
                 <LinearLayout
@@ -50,7 +52,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#000000"
+                        android:textColor="#fff"
                         android:text="Masks"
 
                         android:textSize="18sp"
@@ -72,7 +74,7 @@
                         android:textStyle="bold"
                         android:textSize="18sp"
 
-                        android:textColor="@color/colorInput"
+                        android:textColor="#fff"
                         />
 
                 </LinearLayout>
@@ -92,6 +94,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@drawable/back"
                 android:orientation="horizontal"
                 android:weightSum="4">
                 <LinearLayout
@@ -103,7 +106,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#000000"
+                        android:textColor="#fff"
                         android:text="Glooves"
 
                         android:textSize="18sp"
@@ -125,7 +128,7 @@
                         android:textStyle="bold"
                         android:textSize="19sp"
 
-                        android:textColor="@color/colorInput"
+                        android:textColor="#fff"
                         />
 
                 </LinearLayout>
@@ -144,6 +147,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@drawable/back"
                 android:orientation="horizontal"
                 android:weightSum="4">
                 <LinearLayout
@@ -155,7 +159,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#000000"
+                        android:textColor="#fff"
                         android:text="Sanitizers"
 
                         android:textSize="18sp"
@@ -176,8 +180,7 @@
                         android:id="@+id/sani"
                         android:textStyle="bold"
                         android:textSize="19sp"
-
-                        android:textColor="@color/colorInput"
+                        android:textColor="#fff"
                         />
 
                 </LinearLayout>
@@ -195,6 +198,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
+                android:background="@drawable/back"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:weightSum="4">
@@ -207,7 +211,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#000000"
+                        android:textColor="#fff"
                         android:text="Head Caps"
 
                         android:textSize="18sp"
@@ -229,7 +233,7 @@
                         android:textStyle="bold"
                         android:textSize="18sp"
 
-                        android:textColor="@color/colorInput"
+                        android:textColor="#fff"
                         />
 
                 </LinearLayout>
@@ -248,6 +252,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@drawable/back"
                 android:orientation="horizontal"
                 android:weightSum="4">
                 <LinearLayout
@@ -259,7 +264,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#000000"
+                        android:textColor="#fff"
                         android:text="Waste Bags"
 
                         android:textSize="18sp"
@@ -281,7 +286,7 @@
                         android:textStyle="bold"
                         android:textSize="19sp"
 
-                        android:textColor="@color/colorInput"
+                        android:textColor="#fff"
                         />
 
                 </LinearLayout>
@@ -312,14 +317,14 @@
                     android:textSize="16sp"
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:text="Extra Details: "/>
                 <TextView
                     android:textStyle="bold"
                     android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="16sp"
                     android:inputType="textMultiLine"
                     android:paddingLeft="5dp"
